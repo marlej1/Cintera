@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.705
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cintera", "Cintera\Cintera.csproj", "{4987052C-2990-4F13-BB33-7126C2A4CDC5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cintera.DAL", "Cintera.DAL\Cintera.DAL.csproj", "{4C26CFBF-8C2E-477D-9205-EE95C4C4D114}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4987052C-2990-4F13-BB33-7126C2A4CDC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4987052C-2990-4F13-BB33-7126C2A4CDC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4987052C-2990-4F13-BB33-7126C2A4CDC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4987052C-2990-4F13-BB33-7126C2A4CDC5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C26CFBF-8C2E-477D-9205-EE95C4C4D114}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C26CFBF-8C2E-477D-9205-EE95C4C4D114}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C26CFBF-8C2E-477D-9205-EE95C4C4D114}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C26CFBF-8C2E-477D-9205-EE95C4C4D114}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C7ADE079-8D5B-4FC3-A524-39840B49F1A2}
+	EndGlobalSection
+EndGlobal
