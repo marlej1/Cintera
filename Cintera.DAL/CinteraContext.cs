@@ -20,6 +20,10 @@ namespace Cintera.DAL
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
             modelBuilder.Conventions.Remove<PluralizingTableNameConvention>();
+
+            modelBuilder.Entity<Sightging>().Property(s => s.Address)
+                .IsRequired()
+                .HasMaxLength(256);
             base.OnModelCreating(modelBuilder);
         }
     }
